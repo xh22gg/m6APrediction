@@ -9,7 +9,7 @@ table, and `prediction_single()` for predicting a single genomic position.
 
 ```r
 # install.packages("remotes")   # run once if you do not have remotes
-remotes::install_github("YourGitHubUserName/m6APrediction")
+remotes::install_github("xh22gg/m6APrediction")
 ```
 
 ## Usage

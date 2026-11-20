@@ -7,8 +7,7 @@
 #' @param dna_strings A character vector of DNA sequences of equal length.
 #' @return A data.frame with one factor column per position, named nt_pos1 up
 #'   to nt_posN.
-#' @examples
-#' dna_encoding(c("GGACA", "AGACT"))
+
 dna_encoding <- function(dna_strings){
   nn <- nchar(dna_strings[1])
   seq_m <- matrix(unlist(strsplit(dna_strings, "")), ncol = nn, byrow = TRUE)

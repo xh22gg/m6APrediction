@@ -2,12 +2,13 @@ Package: m6APrediction
 Type: Package
 Title: Prediction of m6A RNA Modification Sites from Genomic Features
 Version: 1.0.0
-Authors@R: person("Your", "Name", email = "you@example.com", role = c("aut", "cre"))
+Authors@R: person("Xuanhe", "Guo", email = "xuanhe.Guo22@student.xjtlu.edu.cn", role = c("aut", "cre"))
 Description: Predicts N6-methyladenosine (m6A) RNA modification sites from
     genomic and sequence features using a fitted random forest model. Provides
     batch prediction (prediction_multiple) and single-site prediction
     (prediction_single) functions.
-License: MIT
+License: MIT 
 Encoding: UTF-8
 Depends: R (>= 3.5.0)
 Imports: randomForest, stats
+RoxygenNote: 7.3.3
